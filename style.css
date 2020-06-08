@@ -1,0 +1,102 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Fredoka+One&display=swap'); */
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', Arial, Helvetica, sans-serif,
+    cursive;
+    background-color: #fbf9fa;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+section{
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    grid-template-rows: 1fr 1fr;
+}
+.part1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+}
+form > div{
+    padding-top: 1.3rem;
+}
+input{
+    border: 2px solid  #a80038;
+    width: 600px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    font-size: 1.2rem;
+    background-color: #a80038;
+    color: #fbf9fa;
+    margin-top: 1.5rem;
+    /* width: 200px; */
+    align-self: center;
+}
+.part2{
+    display: grid;
+    justify-items: center;
+}
+.bookmarks{
+    width: 700px;
+}
+ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+li.bookmark{
+    display: inline-block;
+    width: 120px;
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 120px;
+    overflow: hidden;
+    background-color: #a800381c;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px ;
+}
+li.bookmark a{
+    text-decoration: none;
+    color: black;
+}
+.letter{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background-color: #a80038;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 2rem;
+}
+.dots{
+    position: absolute;
+    display: inline;
+    top: 0;
+    font-size: 30px;
+    right: 10px;
+    cursor: pointer;
+    transform: rotate(45deg);
+}
